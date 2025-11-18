@@ -1,0 +1,39 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore gem5 build outputs (if testing locally)
+build/
+m5out/
+out_*/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore compiled benchmark binaries (keep source)
+benchmarks/thoth_workloads/hashmap
+benchmarks/thoth_workloads/btree
+benchmarks/thoth_workloads/rbtree
+benchmarks/thoth_workloads/swap
+benchmarks/thoth_workloads/*.o
