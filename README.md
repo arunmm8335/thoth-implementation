@@ -214,10 +214,8 @@ nvm.nvmain_config = 'ext/NVMain/Config/PCM_ISSCC_2012_4GB.config'
 ---
 ### Requirements
 
-    gem5: v24.0.0.0 or newer (tested on v24.1.0.1)
+* **gem5: v24.0.0.0 or newer (tested on v24.1.0.1)
+* **NVMain: Installed at $GEM5_ROOT/ext/NVMain/
+* **Architecture: RISC-V target (adaptable to other ISAs)
+* **Python: 3.8+ with numpy and matplotlib
 
-    NVMain: Installed at $GEM5_ROOT/ext/NVMain/
-
-    Architecture: RISC-V target (adaptable to other ISAs)
-
-    Python: 3.8+ with numpy and matplotlib
