@@ -219,4 +219,25 @@ nvm.nvmain_config = 'ext/NVMain/Config/PCM_ISSCC_2012_4GB.config'
 * **Architecture**: RISC-V target (adaptable to other ISAs)
 * **Python**: 3.8+ with numpy and matplotlib
 
+---
+
+### Citation
+If you use this implementation, please cite the original paper and this repository:
+```python
+@inproceedings{thoth-hpca23,
+  title={Thoth: Bridging the Gap Between Persistently Secure Memories and Memory Interfaces of Emerging NVMs},
+  booktitle={IEEE HPCA},
+  year={2023},
+  doi={10.1109/HPCA56546.2023.10071045}
+}
+
+@misc{thoth-gem5-implementation,
+  author = {Arun M M},
+  title = {Thoth PCB Coalescing Implementation for gem5},
+  year = {2025},
+  publisher = {GitHub},
+  url = {[https://github.com/arunmm8335/thoth-implementation](https://github.com/arunmm8335/thoth-implementation)}
+}
+```
+
 
