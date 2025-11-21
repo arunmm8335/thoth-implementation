@@ -125,7 +125,7 @@ thoth-implementation/
 ├── plot_results_corrected.py         # Plotting script
 └── plot_benchmark_results.py         # Plotting script
 
-
+```
 ---
 
 ## Architecture Overview
@@ -146,7 +146,7 @@ overflow_rate = (pcbOverflows / pcbTotalPartials) * 100
 
 # PUB Overhead
 pub_overhead = (pubPartials / pcbTotalPartials) * 100
-
+```
 ---
 ## Experiments
 
@@ -192,7 +192,7 @@ cache.num_ways = 4
 cache.block_size = '64B'
 cache.pcb_capacity = 256
 cache.flush_interval = '10ms'
-
+```
 ---
 
 ## MetadataTrafficGen
@@ -201,7 +201,7 @@ gen = MetadataTrafficGen()
 gen.burst_size = 250
 gen.burst_interval = '1ms'
 gen.request_latency = '4us'
-
+```
 ## NVMain PCM
 ```python
 
@@ -209,3 +209,4 @@ nvm = NVMainControl()
 nvm.tRCD = '150ns'
 nvm.tWR = '500ns'
 nvm.nvmain_config = 'ext/NVMain/Config/PCM_ISSCC_2012_4GB.config'
+```
